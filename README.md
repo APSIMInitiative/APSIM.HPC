@@ -11,7 +11,7 @@ Please refer to the official Singularity documentation for more information: htt
 Run the following to build and execute a Singularity container for APSIM:
 
 ```
-curl -o apsim.Singularity https://raw.githubusercontent.com/APSIMInitiative/APSIM.Singularity/main/Singularity.2022.12.7130.0
+curl -o apsim.Singularity https://raw.githubusercontent.com/APSIMInitiative/APSIM.HPC/main/singularity/Singularity.2022.12.7130.0
 singularity build apsim.sif apsim.Singularity
 ./apsim.sif 
 ```
