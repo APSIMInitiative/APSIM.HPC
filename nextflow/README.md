@@ -17,8 +17,7 @@ Pipeline successful.
 
 Nextflow batch simulations completed
 Output results
-1_SWIM.apsimx  2_SWIM.apsimx  3_SWIM.apsimx  apsimx-2022.12.7130.0.sif
-1_SWIM.db      2_SWIM.db      3_SWIM.db      test.log
+1_SWIM.apsimx  2_SWIM.apsimx  3_SWIM.apsim  1_SWIM.db      2_SWIM.db  3_SWIM.db      
 ```
 
 ## Quickstart
