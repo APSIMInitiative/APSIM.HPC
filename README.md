@@ -1,4 +1,4 @@
-# APSIM.Singularity
+# APSIM.HPC
 
 ## Introduction
 

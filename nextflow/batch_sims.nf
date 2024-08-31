@@ -61,7 +61,7 @@ process imageRunBatch {
   """
   for JOB in ${batch}
   do
-      CMD="./${params.apsimx.module}-${params.apsimx.version}.sif --cpu-count ${task.cpus} \$JOB"
+      CMD="${outputDir}/${params.apsimx.module}-${params.apsimx.version}.sif --cpu-count ${task.cpus} \$JOB"
       echo "Running: \$CMD"
       \$CMD
   done
